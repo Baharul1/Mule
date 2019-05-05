@@ -6,7 +6,6 @@
         </Console>
     </Appenders>
 
-
     <Loggers>
 
         <!-- CXF is used heavily by Mule for web services -->

@@ -12,7 +12,7 @@ http://www.mulesoft.org/schema/mule/ee/tracking http://www.mulesoft.org/schema/m
         <logger level="INFO" doc:name="Logger" message="logging message to log"/>
         <choice doc:name="Choice">
             <when expression="1">
-                <logger level="INFO" doc:name="Logger"/>
+                <logger level="INFO" doc:name="Logger" message="nm,,m"/>
             </when>
             <otherwise>
                 <logger level="INFO" doc:name="Logger"/>
